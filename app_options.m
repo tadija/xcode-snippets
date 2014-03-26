@@ -31,7 +31,6 @@ static NSString * const kRandomOptionKey = @"randomOption";
 
 - (void)registerDefaults
 {
-    // register the initial user defaults
     NSString *defaultOptionsPath = [[NSBundle mainBundle] pathForResource:@"AppOptions" ofType:@"plist"];
     NSDictionary *defaultOptions = [NSDictionary dictionaryWithContentsOfFile:defaultOptionsPath];
     [[NSUserDefaults standardUserDefaults] registerDefaults:defaultOptions];
