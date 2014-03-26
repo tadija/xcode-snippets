@@ -6,7 +6,7 @@
 // IDECodeSnippetIdentifier: 332ADFB5-31F0-44CB-A26E-C1B853F405E2
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
 #import "AppOptions.h"
 
 
