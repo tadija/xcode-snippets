@@ -1,6 +1,7 @@
 // App Options
 // 
 //
+// IDECodeSnippetCompletionPrefix: aeOptions
 // IDECodeSnippetCompletionScopes: [TopLevel]
 // IDECodeSnippetIdentifier: 332ADFB5-31F0-44CB-A26E-C1B853F405E2
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
