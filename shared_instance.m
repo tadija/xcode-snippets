@@ -9,8 +9,8 @@
 // IDECodeSnippetVersion: 2
 + (instancetype)sharedInstance
 {
-    static dispatch_once_t once;
     static id sharedInstance;
+    static dispatch_once_t once;
     dispatch_once(&once, ^{
         sharedInstance = [[self alloc] init];
     });
