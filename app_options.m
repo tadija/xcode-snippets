@@ -1,5 +1,5 @@
 // App Options
-// 
+// Class for reading and writing app options via NSUserDefaults
 //
 // IDECodeSnippetCompletionPrefix: aeOptions
 // IDECodeSnippetCompletionScopes: [TopLevel]
