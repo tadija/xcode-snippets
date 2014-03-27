@@ -1,6 +1,7 @@
 // Weak self
 // Create weak reference to self
 //
+// IDECodeSnippetCompletionPrefix: aeWeakSelf
 // IDECodeSnippetCompletionScopes: [CodeBlock]
 // IDECodeSnippetIdentifier: 5E37AA94-7F55-4EA6-BE4D-67B9132DC4D6
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
