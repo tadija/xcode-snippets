@@ -48,3 +48,11 @@
     [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[subview]|" options:0 metrics:0 views:views]];
     [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[subview]|" options:0 metrics:0 views:views]];
 }
+
+#pragma mark - UI
+
+- (void)updateUI
+{
+    // refresh UI
+    [self setNeedsDisplay];
+}
