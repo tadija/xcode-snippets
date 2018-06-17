@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>aeView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@IBDesignable
+class &lt;#Name#&gt;View: UIView {
+    
+    // MARK: Outlets
+    
+    &lt;#_#&gt;
+    
+    // MARK: Properties
+    
+    &lt;#_#&gt;
+    
+    // MARK: API
+    
+    &lt;#_#&gt;
+    
+    // MARK: Lifecycle
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        self.configure()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        self.configure()
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+    }
+    
+    // MARK: Helpers
+    
+    private func configure() {
+        &lt;#_#&gt;
+    }
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A044C381-1D49-4571-BD61-364960FA7448</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift - UIKit / UIView / Subclass</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

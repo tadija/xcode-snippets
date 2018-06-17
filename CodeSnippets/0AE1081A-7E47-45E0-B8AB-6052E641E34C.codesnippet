@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>aeDefaultsCreate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>typealias Settings = &lt;#AppName#&gt;Settings
+
+final class &lt;#AppName#&gt;Settings {
+
+    static let shared = &lt;#AppName#&gt;Settings()
+    
+    private let storage = AEDefaults(prefix: "App", defaults: .standard)
+
+    func persist() {
+        storage.persist()
+    }
+
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0AE1081A-7E47-45E0-B8AB-6052E641E34C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift - AE / AEDefaults / Create</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
