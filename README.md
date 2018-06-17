@@ -1,7 +1,9 @@
 # xcode-snippets
 
-Code snippets for Xcode
+**Code snippets for Xcode**
 
-## Install
+> I made this for personal use, but feel free to use it or contribute.
 
-Install manually or with the [ACCodeSnippetRepository Xcode Plugin](https://github.com/acoomans/ACCodeSnippetRepositoryPlugin).
+## Installation
+
+Copy `CodeSnippets` directory into `~/Library/Developer/Xcode/UserData`
