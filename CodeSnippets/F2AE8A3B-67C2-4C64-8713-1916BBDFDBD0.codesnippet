@@ -6,10 +6,10 @@
 	<string>aeDispatchAfter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+	<string>DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) { [weak self] in
     &lt;#_#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

@@ -3,25 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aeFlowUI</string>
+	<string>aeDispatchGroup</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>protocol &lt;#Name#&gt;UI: class {
-    var delegate: &lt;#Name#&gt;UIDelegate? { get set }
-}
+	<string>        let group = DispatchGroup()
 
-protocol &lt;#Name#&gt;UIDelegate: class {
-    func &lt;#action#&gt;(_ sender: Any)
-}</string>
+        group.enter()
+        doSomething {
+            group.leave()
+        }
+
+        group.notify(queue: .main) { [weak self] in
+            completion()
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>73AACEF3-DFA5-44B8-AB9C-5B0B7ADA7EC0</string>
+	<string>48D56CD1-25B7-46E5-B167-914F8505CEBB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - AE / AEFlow / UI</string>
+	<string>Swift - AE / Dispatch / Group</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

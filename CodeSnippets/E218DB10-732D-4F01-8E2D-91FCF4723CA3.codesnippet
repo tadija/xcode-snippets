@@ -3,25 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aeFlowUI</string>
+	<string>aeThenCompletion</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>protocol &lt;#Name#&gt;UI: class {
-    var delegate: &lt;#Name#&gt;UIDelegate? { get set }
-}
-
-protocol &lt;#Name#&gt;UIDelegate: class {
-    func &lt;#action#&gt;(_ sender: Any)
-}</string>
+	<string>then completion: @escaping (&lt;#type#&gt;) -&gt; Void</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>73AACEF3-DFA5-44B8-AB9C-5B0B7ADA7EC0</string>
+	<string>E218DB10-732D-4F01-8E2D-91FCF4723CA3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - AE / AEFlow / UI</string>
+	<string>Swift - AE / Random / Completion</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

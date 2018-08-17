@@ -3,28 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aeFlowUI</string>
+	<string>aeInitialLayout</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>protocol &lt;#Name#&gt;UI: class {
-    var delegate: &lt;#Name#&gt;UIDelegate? { get set }
-}
+	<string>    private var isInitialLayout = true
 
-protocol &lt;#Name#&gt;UIDelegate: class {
-    func &lt;#action#&gt;(_ sender: Any)
-}</string>
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        if isInitialLayout {
+            isInitialLayout = false
+            &lt;#_#&gt;
+        }
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>73AACEF3-DFA5-44B8-AB9C-5B0B7ADA7EC0</string>
+	<string>08D8E9AA-4665-49B6-A088-48620726E464</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - AE / AEFlow / UI</string>
+	<string>Swift - AE / UIKit / UIViewController / Initial Layout</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,25 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aeFlowUI</string>
+	<string>aeSeeAlso</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>protocol &lt;#Name#&gt;UI: class {
-    var delegate: &lt;#Name#&gt;UIDelegate? { get set }
-}
-
-protocol &lt;#Name#&gt;UIDelegate: class {
-    func &lt;#action#&gt;(_ sender: Any)
-}</string>
+	<string>/// - Seealso: &lt;#link#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>73AACEF3-DFA5-44B8-AB9C-5B0B7ADA7EC0</string>
+	<string>DB84031E-D1C2-44F6-97DA-BF709963613F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - AE / AEFlow / UI</string>
+	<string>Swift - Pragma / Seealso</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

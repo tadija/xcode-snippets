@@ -3,25 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aeFlowUI</string>
+	<string>aeViewWillDisappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>protocol &lt;#Name#&gt;UI: class {
-    var delegate: &lt;#Name#&gt;UIDelegate? { get set }
-}
-
-protocol &lt;#Name#&gt;UIDelegate: class {
-    func &lt;#action#&gt;(_ sender: Any)
-}</string>
+	<string>    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        &lt;#_#&gt; 
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>73AACEF3-DFA5-44B8-AB9C-5B0B7ADA7EC0</string>
+	<string>CEBF61D4-A917-4DAE-9C21-829136782FA3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - AE / AEFlow / UI</string>
+	<string>Swift - UIKit / UIViewController / viewWillDisappear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
