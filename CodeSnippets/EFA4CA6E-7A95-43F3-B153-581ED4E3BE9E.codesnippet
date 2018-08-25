@@ -9,15 +9,15 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>final class &lt;#Name#&gt;Flow: AEFlow {
-    let root: UIViewController
-    var parent: AEFlow?
-    var children = [AEFlow]()
-
-    init(root: UIViewController) {
-        self.root = root
+	<string>final class &lt;#Name#&gt;Flow: FlowCoordinator {
+    let context = FlowContext()
+    
+    private let ui: UIViewController
+    
+    init(ui: UIViewController) {
+        self.ui = ui
     }
-
+    
     func start() {
         &lt;#_#&gt;
     }

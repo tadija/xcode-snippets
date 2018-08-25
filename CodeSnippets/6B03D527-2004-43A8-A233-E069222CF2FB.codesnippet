@@ -3,31 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aeDispatchGroup</string>
+	<string>aeViewWillTransitionToSize</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        let group = DispatchGroup()
+	<string>    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
 
-        group.enter()
-        doSomething {
-            group.leave()
+        coordinator.animate(alongsideTransition: { (_) in
+            &lt;#_#&gt;
+        }) { (_) in
+            &lt;#_#&gt;
         }
-
-        group.notify(queue: .main) { [weak self] in
-            completion()
-        }</string>
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>48D56CD1-25B7-46E5-B167-914F8505CEBB</string>
+	<string>6B03D527-2004-43A8-A233-E069222CF2FB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - Dispatch / Group</string>
+	<string>Swift - UIKit / UIViewController / viewWillTransitionToSize</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
