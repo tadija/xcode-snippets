@@ -6,23 +6,25 @@
 	<string>aeDispatchGroup</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        let group = DispatchGroup()
+	<string>let group = DispatchGroup()
 
-        group.enter()
-        doSomething {
-            group.leave()
-        }
+group.enter()
+&lt;#doSomething#&gt; {
+    group.leave()
+}
 
-        group.notify(queue: .main) { [weak self] in
-            completion()
-        }</string>
+group.notify(queue: .main) { [weak self] in
+    &lt;#completion()#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>48D56CD1-25B7-46E5-B167-914F8505CEBB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - Dispatch / Group</string>
 	<key>IDECodeSnippetUserSnippet</key>

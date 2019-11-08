@@ -11,6 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>override func viewWillLayoutSubviews() {
     super.viewWillLayoutSubviews()
+    
     &lt;#_#&gt;
 }
 </string>
@@ -18,6 +19,8 @@
 	<string>B4D74BA2-9F8E-48B2-8FE5-DFC6A5A2E9A0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - UIKit / UIViewController / viewWillLayoutSubviews</string>
 	<key>IDECodeSnippetUserSnippet</key>

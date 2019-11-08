@@ -11,12 +11,15 @@
 	<key>IDECodeSnippetContents</key>
 	<string>override func viewDidLoad() {
     super.viewDidLoad()
+    
     &lt;#_#&gt;
-    }</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1CB55CE5-A453-458A-9489-4B4FC67D7BE8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - UIKit / UIViewController / viewDidLoad</string>
 	<key>IDECodeSnippetUserSnippet</key>

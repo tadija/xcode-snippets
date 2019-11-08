@@ -9,13 +9,15 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// - Seealso: &lt;#link#&gt;</string>
+	<string>/// - See: &lt;#link#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DB84031E-D1C2-44F6-97DA-BF709963613F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - Pragma / Seealso</string>
+	<string>Swift - Pragma / See</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

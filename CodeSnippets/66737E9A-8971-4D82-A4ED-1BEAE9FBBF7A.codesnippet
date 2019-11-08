@@ -11,12 +11,15 @@
 	<key>IDECodeSnippetContents</key>
 	<string>override func viewDidLayoutSubviews() {
     super.viewDidLayoutSubviews()
+    
     &lt;#_#&gt;
-    }</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>66737E9A-8971-4D82-A4ED-1BEAE9FBBF7A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - UIKit / UIViewController / viewDidLayoutSubviews</string>
 	<key>IDECodeSnippetUserSnippet</key>

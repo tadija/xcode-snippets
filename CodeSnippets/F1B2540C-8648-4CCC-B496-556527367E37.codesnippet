@@ -11,12 +11,15 @@
 	<key>IDECodeSnippetContents</key>
 	<string>override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
+    
     &lt;#_#&gt;
-    }</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F1B2540C-8648-4CCC-B496-556527367E37</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - UIKit / UIViewController / viewWillAppear</string>
 	<key>IDECodeSnippetUserSnippet</key>

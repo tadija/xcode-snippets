@@ -15,16 +15,19 @@
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         &lt;#_#&gt;
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
         &lt;#_#&gt;
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
         &lt;#_#&gt;
     }
 
@@ -34,6 +37,8 @@
 	<string>C2BDDA56-1DC3-43DA-9C66-1D51EE1D9951</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - UIKit / UIViewController / Subclass</string>
 	<key>IDECodeSnippetUserSnippet</key>

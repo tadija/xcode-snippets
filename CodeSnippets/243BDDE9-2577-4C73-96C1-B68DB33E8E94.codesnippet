@@ -3,29 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aeDefaultsAdd</string>
+	<string>aeResult</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    var &lt;#name#&gt;: &lt;#Type#&gt; {
-        get {
-            return storage[#function] ?? &lt;#default value#&gt;
-        }
-        set {
-            storage[#function] = newValue
-        }
-    }</string>
+	<string>switch result {
+case .success&lt;#(let data)#&gt;:
+    &lt;#print(data)#&gt;
+case .failure&lt;#(let error)#&gt;:
+    &lt;#print(error)#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>65C7FDA0-2B6B-40C0-808F-947D2FBF02B7</string>
+	<string>243BDDE9-2577-4C73-96C1-B68DB33E8E94</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - AE / AEDefaults / Add</string>
+	<string>Swift - Random / switch result</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

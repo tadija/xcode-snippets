@@ -9,24 +9,26 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        super.viewWillTransition(to: size, with: coordinator)
+	<string>override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+    super.viewWillTransition(to: size, with: coordinator)
 
-        coordinator.animate(alongsideTransition: { (_) in
-            &lt;#_#&gt;
-        }) { (_) in
-            &lt;#_#&gt;
-        }
-    }</string>
+    coordinator.animate(alongsideTransition: { (_) in
+        &lt;#_#&gt;
+    }) { (_) in
+        &lt;#_#&gt;
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6B03D527-2004-43A8-A233-E069222CF2FB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - UIKit / UIViewController / viewWillTransitionToSize</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

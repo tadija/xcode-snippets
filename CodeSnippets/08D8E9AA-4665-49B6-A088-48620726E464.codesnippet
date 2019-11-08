@@ -9,20 +9,22 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    private var isInitialLayout = true
+	<string>private var isInitialLayout = true
 
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
-        if isInitialLayout {
-            isInitialLayout = false
-            &lt;#_#&gt;
-        }
-    }</string>
+override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
+    
+    if isInitialLayout {
+        isInitialLayout = false
+        &lt;#_#&gt;
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>08D8E9AA-4665-49B6-A088-48620726E464</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - UIKit / UIViewController / Initial Layout</string>
 	<key>IDECodeSnippetUserSnippet</key>

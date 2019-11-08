@@ -9,13 +9,15 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) { [weak self] in
+	<string>DispatchQueue.main.asyncAfter(deadline: .now() &lt;#+ 0.1#&gt;) { [weak self] in
     &lt;#_#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F2AE8A3B-67C2-4C64-8713-1916BBDFDBD0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - Dispatch / After</string>
 	<key>IDECodeSnippetUserSnippet</key>
