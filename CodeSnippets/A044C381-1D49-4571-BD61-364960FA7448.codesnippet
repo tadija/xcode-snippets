@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aeView</string>
+	<string>aeUIView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
@@ -52,6 +52,8 @@ class &lt;#Name#&gt;View: UIView {
 	<string>A044C381-1D49-4571-BD61-364960FA7448</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - UIKit / UIView / Subclass</string>
 	<key>IDECodeSnippetUserSnippet</key>

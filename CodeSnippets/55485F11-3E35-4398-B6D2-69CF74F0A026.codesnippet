@@ -6,7 +6,7 @@
 	<string>aeDispatchMain</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>DispatchQueue.main.sync { [weak self] in 
@@ -16,6 +16,8 @@
 	<string>55485F11-3E35-4398-B6D2-69CF74F0A026</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift - Dispatch / Main</string>
 	<key>IDECodeSnippetUserSnippet</key>

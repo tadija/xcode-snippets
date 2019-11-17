@@ -3,27 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aeResult</string>
+	<string>aeView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>switch result {
-case .success&lt;#(let data)#&gt;:
-    &lt;#print(data)#&gt;
-case .failure&lt;#(let error)#&gt;:
-    &lt;#print(error)#&gt;
+	<string>import SwiftUI
+
+struct &lt;#CustomView#&gt;: View {
+    var body: some View {
+        Text("hello")
+    }
+}
+
+struct &lt;#CustomView#&gt;_Previews: PreviewProvider {
+    static var previews: some View {
+        &lt;#CustomView#&gt;()
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>243BDDE9-2577-4C73-96C1-B68DB33E8E94</string>
+	<string>E5957BA2-AF81-4408-8EAA-BA6A0BD23ADC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - Random / switch result</string>
+	<string>Swift - UI / View</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -6,7 +6,7 @@
 	<string>aeDispatchGlobal</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>DispatchQueue.global().async { [weak self] in
