@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.sync { [weak self] in 
+	<string>DispatchQueue.main.sync { 
     &lt;#_#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

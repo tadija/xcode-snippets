@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(deadline: .now() &lt;#+ 0.1#&gt;) { [weak self] in
+	<string>DispatchQueue.main.asyncAfter(deadline: .now() &lt;#+ 0.1#&gt;) {
     &lt;#_#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
