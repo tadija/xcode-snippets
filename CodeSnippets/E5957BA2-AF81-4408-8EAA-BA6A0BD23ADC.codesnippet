@@ -29,7 +29,7 @@ struct &lt;#CustomView#&gt;_Previews: PreviewProvider {
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - UI / View</string>
+	<string>SwiftUI / View</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

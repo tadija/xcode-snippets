@@ -14,8 +14,10 @@
 	<string>68CB1A2D-9EB8-4EE1-9DE9-224DFF5D089F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - UIKit / Outlet</string>
+	<string>UIKit / @IBOutlet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

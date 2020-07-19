@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aeViewWillDisappear</string>
+	<string>lintDisable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>override func viewWillDisappear(_ animated: Bool) {
-    super.viewWillDisappear(animated)
-    
-    &lt;#_#&gt; 
-}</string>
+	<string>// swiftlint:disable &lt;#rule#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CEBF61D4-A917-4DAE-9C21-829136782FA3</string>
+	<string>3D2D624F-71A2-464C-B2E4-F7E8D7FA9B45</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - UIKit / UIViewController / viewWillDisappear</string>
+	<string>SwiftLint / Disable Rule</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

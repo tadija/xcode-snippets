@@ -11,8 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>/**
  *  https://github.com/tadija/&lt;#repo#&gt;
- *  Copyright (c) Marko Tadić 2019
- *  Licensed under the MIT license. See LICENSE file.
+ *  Copyright © 2020 Marko Tadić
+ *  Licensed under the MIT license
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6BE670AA-30FB-4737-8D61-7A8213CC004B</string>
@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Text - Open Source Header</string>
+	<string>Comment / Header</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

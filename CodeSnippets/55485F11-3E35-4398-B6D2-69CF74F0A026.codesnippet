@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.sync { 
+	<string>DispatchQueue.main.async { 
     &lt;#_#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - Dispatch / Main</string>
+	<string>Dispatch / Main</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

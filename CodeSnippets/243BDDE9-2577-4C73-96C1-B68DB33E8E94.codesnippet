@@ -23,7 +23,7 @@ case .failure&lt;#(let error)#&gt;:
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - Random / switch result</string>
+	<string>Random / Switch Result</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

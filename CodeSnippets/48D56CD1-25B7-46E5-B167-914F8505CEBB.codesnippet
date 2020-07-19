@@ -26,7 +26,7 @@ group.notify(queue: .main) { [weak self] in
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - Dispatch / Group</string>
+	<string>Dispatch / Group</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

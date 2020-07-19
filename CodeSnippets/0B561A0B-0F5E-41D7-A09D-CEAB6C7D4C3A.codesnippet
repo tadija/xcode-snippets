@@ -16,8 +16,10 @@
 	<string>0B561A0B-0F5E-41D7-A09D-CEAB6C7D4C3A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - Notification / Name</string>
+	<string>Random / Notification Name</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
